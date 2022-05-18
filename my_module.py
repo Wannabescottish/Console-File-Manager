@@ -60,3 +60,15 @@ def quiz():
 
     mistake = 5 - score
     print("Количество правильных ответов: ", score, ", неправильных ответов: ", mistake, "\n Попробуйте снова!!!")
+
+def author_info():
+    return 'created by nimbu'
+
+def filter_int_only(i):
+    if type(i) is int:
+        return True
+    else:
+        return False
+
+def square(num):
+    return num**2
